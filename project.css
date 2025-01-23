@@ -92,7 +92,7 @@ header {
 #master_header {
     font-size: 18pt;
     border: solid 3px aqua;
-    background-color: aliceblue;
+    background-color: white;
     padding: 3px;
     font-weight: bold;
 }
@@ -107,13 +107,15 @@ header {
 .header_stuff {
     display: grid;
     grid-template-columns: auto auto auto;
-
     background-color: #afebff;
 
 }
 
 .header_stuff > #four_group {
     display: grid;
+
+    /** what JT suggested**/
+    justify-content: center;
     grid-template-columns: auto auto;
     padding: 0px;
     margin: 2px;
@@ -150,6 +152,7 @@ header {
 .header_stuff > #button_mania > button {
     padding: 5px;
     margin: 4px;
+    background-color: aliceblue;
 
 }
 
