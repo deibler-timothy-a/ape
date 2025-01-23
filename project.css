@@ -33,7 +33,7 @@ header {
     background-color: rgb(175, 245, 240);
     padding: 1%;
     border: 1px lightskyblue solid;
-    height: calc(100% - 200px);
+    height: 100%;
 }
 
 #bottom_left {
